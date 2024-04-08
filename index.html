@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyberpunk 2077</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body>
 
@@ -25,7 +26,7 @@
             </div>
             <div class="landing-container">
                 <div class="landing-card">
-                    <h1>Доступно на всех платформах</h1>
+                    <h1 class="landing">Доступно на всех платформах</h1>
                     <button>Узнать больше</button>
                 </div>
             </div>
@@ -61,14 +62,16 @@
     <div class="border-wb"></div>
     <div class="promo-section">
         <div class="main-container">
-
-            <img src="./img/sale-star.svg" alt="">
-            <h1 class="promo">Играй и выигрывай</h1>
-            <div class="promo-text">
-                Играй в <span class="highlight">Cyberpunk 2077</span> и получи возможность выиграть консоль <span class="highlight">Xbox Series X</span> или <span class="highlight">Sony PlayStation 5!</span> Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)
+            <div class="promo-container">
+                <span>
+            <div class="promo-info">
+                <img src="./img/sale-star.svg" alt="">
+                <h1 class="promo">Играй и выигрывай</h1>
+                <div class="promo-text">
+                    Играй в <span class="highlight">Cyberpunk 2077</span> и получи возможность выиграть консоль <span class="highlight">Xbox Series X</span> или <span class="highlight">Sony PlayStation 5!</span> Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)
+                </div>
             </div>
 
-            <div class="promo-container">
                 <div class="promo-l">
                     <input type="text" class="promo" placeholder="Как тебя зовут?">
                     <input type="email" class="promo" placeholder="Твой e-mail">
@@ -84,10 +87,13 @@
                         </div>
                     </div>
                 </div>
+            </span>
                 <div class="promo-r">
-                    <img src="./img/console-promo.png" alt="">
+                    <img src="./img/promo-x.png" alt="" class="promo-x">
+                    <img src="./img/promo-ps.png" alt="" class="promo-ps">
                 </div>
-            </div>
+            
+        </div>
         </div>
     </div>
     <div class="border-by"></div>
@@ -98,11 +104,11 @@
         <div class="main-container">
             <div class="promo2-container">
                 <div class="promo2-l">
-                    <img src="./img/monitor.png" alt="HP монитор">
+                    <img src="./img/monitor.png" alt="HP монитор" class="promo2">
                     <div class="promo2-logo-container">
-                        <img src="./img/logo/hp-2 logo.svg" alt="">
-                        <img src="./img/icons/cross.svg" alt="">
-                        <img src="./img/logo/Cyberpunk_2077_logo 1.svg" alt="">
+                        <img src="./img/logo/hp-2 logo.svg" alt="" class="promo2-logo, hp-logo">
+                        <img src="./img/icons/cross.svg" alt="" class="promo2-logo, cross-logo">
+                        <img src="./img/logo/Cyberpunk_2077_logo 1.svg" alt="" class="promo2-logo, cyberpunk-logo">
                     </div>
                 </div>
                 <div class="promo2-r">
@@ -133,32 +139,33 @@
     <div class="buy-section">
         <div class="buy-container">
             <div class="buy-l">
-                <img src="./img/disks.jpg" alt="">
+                <div class="buy-background"></div>
+                
             </div>
             <div class="buy-r">
                 <h1 class="buy">Купить игру Cyberpunk 2077</h1>
                 <div class="buy-collection">
                     <h2 class="buy">В комплект входит:</h2>
                     <div class="buy-element">
-                        <img src="./img/icons/disk.svg" alt="">
+                        <img src="./img/icons/disk.svg" alt="" class="buy">
                         <span class="buy-text">Футляр с игровыми дисками</span>
                     </div>
                     <div class="buy-element">
-                        <img src="./img/icons/wysiwyg.svg" alt="">
+                        <img src="./img/icons/wysiwyg.svg" alt="" class="buy">
                         <span class="buy-text">Футляр с кодом для загрузки игры и дисками (pc)</span>
                     </div>
                     <div class="buy-element">
-                        <img src="./img/icons/collections.svg" alt="">
+                        <img src="./img/icons/collections.svg" alt="" class="buy">
                         <span class="buy-text">Справочник с информацией об игровом мире</span>
                     </div>
                 </div>
                 <div class="buy-platform">
                     <h2 class="buy">Выберите платформу:</h2>
                     <div class="buy-platform-container">
-                        <img src="./img/logo/PC.svg" alt="">
-                        <img src="./img/logo/xbox-one-3 logo.svg" alt="">
-                        <img src="./img/logo/stadia logo.svg" alt="">
-                        <img src="./img/logo/Playstation logo.svg" alt="">
+                        <img src="./img/logo/PC.svg" alt="" class="platform">
+                        <img src="./img/logo/xbox-one-3 logo.svg" alt="" class="platform">
+                        <img src="./img/logo/stadia logo.svg" alt="" class="platform">
+                        <img src="./img/logo/Playstation logo.svg" alt="" class="platform">
                     </div>
                 </div>
             </div>
