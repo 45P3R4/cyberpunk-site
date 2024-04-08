@@ -33,18 +33,14 @@
     }
 }
 
-@media screen and (width <= 700px) {
+@media screen and (width <= 1000px) {
     .header-bar {
         justify-content: center;
     }
 
     h1 {
         font-size: 60px;
-    }
-
-    .landing-card {
-        width: fit-content;
-    }  
+    } 
 
     .info-img {
         display: flex;
@@ -62,18 +58,81 @@
         width: 50%;
     }
 
-    .info-img-r {
-        display: flex;
+    img.info-img3 {
+        width: 100%;
+    }
+
+    .promo-container {
+        justify-content: center;
+    }
+
+    .promo-info {
+        width: 100%;
+    }
+
+    .promo-l {
+        width: 100%;
+    }
+
+    .screenshot-block {
+        width: auto;
+    }
+
+    .promo-r {
+        max-width: 100%;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .promo-x {
+        width: 50%;
+    }
+
+    .promo-ps {
+        width: 50%;
+    }
+
+    .promo2-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .promo2-l {
+        justify-content: center;
+        width: 50%;
+        height: fit-content;
+    }
+
+    .promo2-r {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .promo2-logo-container {
+        flex-direction: row;
+    }
+
+    img.promo2 {
+        width: 50vw;
+    }
+
+    h1.promo2 {
+        font-size: 40px;
+    }
+
+    h1.buy {
+        font-size: 40px;
     }
 }
 
-@media screen and (width <= 320px) {
+@media screen and (width <= 700px) {
     h1 {
         font-size: 30px;
     }
 
     h1.landing {
         text-align: center;
+        font-size: 60px;
     }
 
     button {
@@ -89,12 +148,15 @@
     }
 
     .landing-card {
+        display: flex;
+        flex-direction: column;
         height: fit-content;
         padding: 30px 30px;
+        width: fit-content;
     }
 
     .info-img-l img {
-        width: 110%;
+        width: 100%;
         align-self: center;
     }
 
@@ -105,39 +167,8 @@
     }
 
     .info-img-r img {
-        width: 200%;
+        width: 100%;
         align-self: center;
-    }
-
-    .info-img-r {
-        flex-direction: column;
-    }
-
-    .promo-info {
-        width: 300px;
-    }
-
-    .promo-l {
-        width: 300px;
-    }
-
-    .screenshot-block {
-        width: auto;
-    }
-
-    .promo-r {
-        margin-top: 32px;
-        width: 300px;
-        flex-direction: row;
-        flex-wrap: nowrap;
-    }
-
-    .promo-x {
-        width: 150px;
-    }
-
-    .promo-ps {
-        width: 150px;
     }
 
     .promo2-container {
