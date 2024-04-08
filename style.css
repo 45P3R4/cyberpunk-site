@@ -96,7 +96,19 @@ button {
 .info-img-l {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 25px;
+}
+
+.info-img3 {
+    width: 100%;
+}
+
+.info-img1 {
+    width: 100%;
+}
+
+.info-img2 {
+    width: 100%;
 }
 
 .info-img-r {
