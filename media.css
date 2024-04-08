@@ -157,17 +157,18 @@
 
     .info-img-l img {
         width: 100%;
+        height: auto;
         align-self: center;
     }
 
     .info-img-l {
-        width: 100%;
         flex-direction: column;
         object-fit: cover;
     }
 
     .info-img-r img {
         width: 100%;
+        height: auto;
         align-self: center;
     }
 
@@ -177,6 +178,7 @@
 
     .promo2-l {
         width: 300px;
+        margin: 0 auto;
         height: fit-content;
     }
 
